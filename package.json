@@ -1,0 +1,33 @@
+{
+  "name": "cms",
+  "version": "1.0.0",
+  "private": true,
+  "description": "https://closebrace.com/tutorials/2017-03-02/the-dead-simple-step-by-step-guide-for-front-end-developers-to-getting-up-and-running-with-nodejs-express-and-mongodb #### Docker tutorials: https://medium.com/statuscode/dockerising-a-node-js-and-mongodb-app-d22047e2806f http://jdlm.info/articles/2016/03/06/lessons-building-node-app-docker.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeatrizElena/cmsApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeatrizElena/cmsApp/issues"
+  },
+  "homepage": "https://github.com/BeatrizElena/cmsApp#readme",
+  "dependencies": {
+    "express-generator": "^4.15.5",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "mongodb": "~3.0.1",
+    "monk": "~6.0.5",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
+  }
+}
